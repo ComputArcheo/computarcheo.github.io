@@ -1,12 +1,28 @@
-name: "website"
-title: "My Website"
+name: "GAC"
+title: "Groupe d'Archéologie Computationnelle"
 description: |
   My Website
+favicon: images/favicon.png
+base_url: https://computarcheo.github.io
+repository_url: https://github.com/ComputArcheo
+creative_commons: CC BY
 output_dir: "_site"
 navbar:
+  search: true
   right:
-    - text: "Home"
+    - text: "Accueil"
       href: index.html
-    - text: "About"
+    - text: "A propos"
       href: about.html
-output: distill::distill_article
+    - icon: fa fa-rss
+      href: index.xml
+  source_url: true
+collections:
+  posts:
+    share: [twitter]
+    custom: _custom.html
+    citations: false
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true

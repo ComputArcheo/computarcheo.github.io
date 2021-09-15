@@ -1,10 +1,45 @@
 ---
-title: "About this site"
+title: "A propos"
 description: |
-  Some additional details about the website
+  Le Groupe d'Archéologie Computationnelle est un collectif d'échange consacré aux méthodes numériques pour la recherche et l'enseignement en archéologie. Le groupe promeut une science ouverte, au bénéfice d'une recherche transparente et reproductible.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## Objectifs
+
+Le Groupe d'Archéologie Computationnelle à notamment pour objectifs :
+
+* De sensibiliser aux enjeux de transparence et de reproductibilité de la recherche en archéologie ;
+* De promouvoir la publication et le partage libre des données de recherche en archéologie ;
+* De discuter de l'utilisation des approches quantitatives en archéologie.
+
+<aside>
+**Intérêts :**
+
+<ul class="fa-ul">
+  <li><span class="fa-li"><i class="fas fa-unlock-alt"></i></span>Science ouverte</li>
+  <li><span class="fa-li"><i class="fas fa-sync-alt"></i></span>Reproductibilité</li>
+  <li><span class="fa-li"><i class="fas fa-code"></i></span>Programmation</li>
+  <li><span class="fa-li"><i class="fas fa-chart-bar"></i></span>Approches quantitatives</li>
+  <li><span class="fa-li"><i class="fas fa-code-branch"></i></span>Humanités numériques</li>
+</ul>
+</aside>
+
+Son rôle est d'initier, d'organiser et de structurer des moments d'échanges entre les différents membres de la communauté archéologique bordelaise. Le groupe offre un espace de discussion autour de l'utilisation des méthodes quantitatives en archéologie. Il vise à promouvoir des pratiques collaboratives notamment par l'usage des logiciels libres et des langages de scripts. Ces activités prennent la forme d'ateliers, de formations ou de séminaires.
+
+## Fonctionnement
+
+Le groupe est ouvert à toute personne quelle que soit son expérience et soutient en particulier les étudiants et jeunes chercheurs·ses. Si votre recherche repose sur des problèmes de traitement et d'analyse de données, et si vous souhaitez participer au fonctionnement du groupe, n'hésitez pas à nous contacter.
+
+La participation aux activités du groupe implique l'acceptation et le respect de notre [code de conduite](conduct.html).
+
+## Contact
+
+```{r map}
+leaflet::leaflet() |>
+  leaflet::addTiles() |> # Add default OpenStreetMap map tiles
+  leaflet::addMarkers(lng = -0.620299, lat = 44.793771, popup = "Maison de l\'Archéologie")
+```

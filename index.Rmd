@@ -1,15 +1,11 @@
 ---
-title: "My Website"
+title: "Groupe d'Archéologie Computationnelle"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Le Groupe d'Archéologie Computationnelle est un collectif d'échange consacré aux méthodes numériques pour la recherche et l'enseignement en archéologie. Le groupe promeut une science ouverte, au bénéfice d'une recherche transparente et reproductible.
 site: distill::distill_website
+listing: posts
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
 ```
-
